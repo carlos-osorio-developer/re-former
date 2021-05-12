@@ -5,7 +5,7 @@
       <div><%= message %></div>
     <% end %>
     <br><br>
-    <%= form.label(:email, "The emaiillll") %>
+    <%= form.label(:email, "Email") %>
     <%= form.email_field :email, placeholder: "Your email" %>
     <% user.errors.full_messages_for(:email).each do |message| %>
       <div><%= message %></div>
